@@ -27,6 +27,10 @@ export default function Home() {
             >
                 <source src="sample.mp4" type="video/mp4" />
             </video>
+
+            <video width="100%" autoplay loop muted>
+                <source src="sample.mp4" type="video/mp4" playsinline />
+            </video>
         </div>
     );
 }
